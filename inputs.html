@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <label for="iname">Nombre: </label>
+        <input id="iname" type="text" name="nombre" placeholder="Name">
+        <br>
+        <label for="imail">email: </label>
+        <input id="imail" type="email" name="email" placeholder="Email">
+        <br>
+        <label for="but">Botón: </label>
+        <input id="but" type="button" onclick="Ok" value="Button">
+        <br>
+        <label for="chek1">un sol checkbox: </label>
+        <input id="chek1" type="checkbox" name="chek1">
+        <br>
+        <label for="chek2">Grupo checkboxes: </label>
+        <input id="chek2" type="checkbox" name="chek2" value="checkbox 1">
+        <label for="chek3">Grupo checkboxes: </label>
+        <input id="chek3" type="checkbox" name="chek3" value="checkbox 1">
+        <label for="chek4">Grupo checkboxes: </label>
+        <input id="chek4" type="checkbox" name="chek4" value="checkbox 2">
+        <label for="chek5">Grupo checkboxes: </label>
+        <input id="chek5" type="checkbox" name="chek5" value="checkbox 3">
+        <label for="chek6">Grupo checkboxes: </label>
+        <input id="chek6" type="checkbox" name="chek6" value="checkbox 4">
+        <br>
+        <label for="colour">Color: </label>
+        <input id="colour" type="color" name="colour">
+        <br>
+        <label for="data">Data: </label>
+        <input id="data" type="date" name="data">
+        <br>
+        <label for="data2">Data, Hora-local: </label>
+        <input id="data2" type="datetime-local" name="data2">
+        <br>
+        <label for="archive">Fitxer: </label>
+        <input id="archive" type="file">
+        <br>
+        <label for="num">Numero: </label>
+        <input id="num" type="number" name="numero">
+        <br>
+        <label for="icontra">Contraseña: </label>
+        <input id="icontra" type="password" name="contra">
+        <br>
+        <label for="iradio">Un radio: </label>
+        <input for="iradio" type="radio" name="radio">
+        <br>
+        <label for="iradio2">Radio1: </label>
+        <input id="iradio2" type="radio" name="gruporadio">
+        <label for="iradio3">Radio2: </label>
+        <input id="iradio3" type="radio" name="gruporadio">
+        <label for="iradio4">Radio3: </label>
+        <input id="iradio4" type="radio" name="gruporadio">
+        <label for="iradio5">Radio4: </label>
+        <input id="iradio5" type="radio" name="gruporadio">
+        <br>
+        <label for="rango">Rango: </label>
+        <input id="rango" type="range" name="rango1">
+        <br>
+        <label for="ires">Reset: </label>
+        <input id="ires" type="reset" name="resetear">
+        <br>
+        <label for="itemps">Temps: </label>
+        <input id="itemps" type="time" name="temps">
+        <br>
+        <label for="isearch">Cerca: </label>
+        <input id="isearch" type="search" name="cercar" placeholder="search">
+        <br>
+        <label for="itel">Tel: </label>
+        <input id="itel" type="tel" name="tel" placeholder="tel">
+        <br>
+        <label for="itex">Text: </label>
+        <input id="itex" type="text" name="text" placeholder="text">
+        <br>
+        <label for="iurl">URL: </label>
+        <input id="iurl" type="url" name="url">
+        <br>
+        <input id="but" type="button" onclick="Ok" value="Açò és un botó!">
+        <br>
+        <label for="iselec">Select 1:</label>
+        <select name="select" id="iselec">
+            <option value="test1">Test 1</option>
+            <option value="test1">Test 2</option>
+            <option value="test1">Test 3</option>
+            <option value="test1">Test 4</option>
+        </select>
+        <label for="grupo">Select Multiple: </label>
+        <select name="multi" id="grupo">
+            <optgroup label="First group">
+                <option value="test">Test</option>
+                <option value="test">Test</option>
+            </optgroup>
+            <optgroup label="Second group">
+                <option value="test">Test</option>
+                <option value="test">Test</option>
+            </optgroup>
+            <optgroup label="Second group">
+                <option value="test">Test</option>
+                <option value="test">Test</option>
+            </optgroup>
+        </select>
+        <br>
+        <label for="iarea">Textarea</label>
+        <textarea id="iarea" name="area" rows="4" cols="10">A paragraph in here</textarea>
+        <button type="button">GO</button>
+    </form>
+</body>
+
+</html>
